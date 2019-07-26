@@ -1,0 +1,70 @@
+How we take input and Show Output in Java from CUI application?
+
+
+CUI application means Character user interface JAVA Provide System class to manage Input and Output Operation using CUI.
+
+
+java.lang:-
+
+java is the base package and lang is the subpackage of java.
+
+it is the default package of java means it will be linked automatically in java program.
+
+
+Object:-  it is the super class of Java.all predefine classes of Java will be inherited by Object class.
+
+System:- it is the predefine class of java which is used to handle input /output operation for CUI application.
+
+
+PrintStream:- it is the subclass of System class which is used to handle Output data of CUI application .
+
+it has two different method
+
+1 print():- display output in single line
+
+2 println():- display output in new line
+
+
+out:-  it is the reference of PrintStream Class to access print() and println()
+
+
+InputStream:-  it is used to take input from user's by keyboard
+
+it contain read()
+
+read():-  it return data in byte pattern for single char hence read() never use for input operation.
+
+byte a = System.in.read();
+
+it throw exception hence it is most complicated method.
+
+Java Provide Scanner class to manage input data.
+
+Scanner sc = new Scanner(System.in);
+
+
+in:-  it is the reference of InputStream class which is used to handle input data from keyboard.
+
+we always use System.in for input operation.
+
+..............................................................................................................
+
+I
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

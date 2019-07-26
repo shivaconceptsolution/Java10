@@ -1,0 +1,59 @@
+Iterator and Listiterator?
+.........................................................................................................
+
+these interfaces is used to show collection data.if collection collection large set of items than foreach loop will take more time to process hence iterator and listiterator interfaces has implemented.
+
+
+
+Iterator:-
+
+this interface is used to display the record of LIST Classes and Set Classes object in forward direction.
+
+
+
+
+ListIterator:-
+
+this interface is used to display the record of list classes and set classes in forward and reverse direction both.
+
+.......................................................................................................
+
+what is generic collection classes:-
+
+it is used to provide type safty to collection classes.
+because we can specify datatype under collection class object.
+
+
+
+
+ArrayList obj = new ArrayList(); //non generic
+
+ArrayList<Integer> obj = new ArrayList<Integer>();  //generic
+
+ArrayList<Student> obj = new ArrayList<Student>();  //generic arraylist for student type
+
+Comparable and Comparator interface.
+
+
+Comparable :-
+
+this interface is used to compare object data and sort List classes object.
+
+When we create generic list classes than we always override comparable interface.
+
+
+Comparator interface:-
+
+this interface is used to compare two different object and provide generic treeset record in ascending order.
+
+when we want to implement generic treeset than comparator interface must be implemented.
+
+
+
+
+
+
+
+
+
+

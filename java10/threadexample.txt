@@ -1,0 +1,69 @@
+File Handling Concept in Python:-
+...........................................................................................................
+
+File is a collection of records using this we can store data in computer hardisc parmanently.
+
+Python Predefine Method to perform file handling operation
+
+1 open() :-  open or create according to file mode
+
+   open("filename","mode")
+   open("abc.txt","w")   #create than write
+   open("abc.txt","r")   #open than read
+   open("abc.txt","w+")  #write and read
+   open("abc.txt","r+")  #read and write
+   open("abc.txt","a")  #open than append 
+   open("abc.txt","a+) #open than read
+2 write() :- it is used to write content in file
+3 read():-  it is used to read content from file
+
+
+...............................................................................................
+Threading Concept in Python:-
+.......................................................................................
+
+Thread is a collection light-weight sub process to execute program.
+
+
+Thread is mainly used to implement MultiThreading Operation.
+
+using this we can execute multiple program similtenious .
+
+
+Python Provide threading Module and Thread class to implement Thread Features.
+
+Thread is mostly used in Game  and System software.
+
+
+
+thread life cycle:-
+
+init state   :-  thread intialization
+
+ready state :-  create Thread references and thread will be started after some time.
+
+runnable state:-  it will be used to execute thread
+
+dead state:-  when process completed than thread will be destroyed
+
+
+waiting state:-  when we want to puase thread process for some time interval than it will be  managed in waiting state.
+
+
+.....................................................................................
+
+time and Calender module:-
+
+it is used to displlay time in standard format
+
+
+
+
+
+
+
+
+
+
+
+

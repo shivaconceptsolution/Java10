@@ -1,0 +1,44 @@
+Hibernate:-
+..........................................................................................................
+
+it is ORM(Object Relational Mapping) tools which is used to provide connection bridge from application to database server.
+
+Hibernate has persistant object to store data and map to database table.
+
+Hibernate provide better security and performance as compare to JDBC because hinernate store all data using Object pattern.
+
+JDBC has SQL Injection Problem means heckers easily hack data from database using SQL Paremeters.
+
+
+Step for Hibernate:-
+........................................................................
+1 create java application
+
+2 create hibernate.cfg.xml file for database configuration
+
+3 create pojo class ,Plain Old Java Objects it contain set of properties
+
+
+4 create hibernate.hbm.xml file for mapping of tables
+
+5 write Hibernate Program code for data insertion,updation ,deletion and selection.
+
+
+Configuration
+
+SessionFactory
+
+Session
+
+
+Transaction
+
+
+
+
+
+
+
+
+
+

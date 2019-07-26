@@ -1,0 +1,21 @@
+Q1 WAP to perform addition and multiplication of compex number?
+
+2+3i
+4+5i
+.................
+6+8i
+
+Q2 WAP to calculate gross salary of emp where basic,ta,da,comm,pf ,noofleave will be entered by the user's?
+
+Q3 WAP to reverse five digit number but first and last digit will be same.
+
+12345
+14325
+
+
+Q4 WAP to calculate electricity bill where unit price will be object type and total consumption will be float type?
+
+Q5 WAP to swap two number where one number is integer and another one is object without using third variable
+
+hpetraining@gmail.com
+
